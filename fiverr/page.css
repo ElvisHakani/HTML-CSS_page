@@ -1,0 +1,565 @@
+*{
+    box-sizing: border-box;
+}
+.logo{
+    width: 200px;
+    height: 60px;
+}
+.tr{
+    transition: 0.2s;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(22, 212, 38);
+    border-radius: 0.7rem;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.navbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0.7rem;
+}
+.btn1{
+    width: max-content;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+.join{
+    border: 1px solid;
+    background: none;
+    border-radius: 0.4rem;
+    font-size: large;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn1:hover{
+    transform: scale(1.09);
+}
+.join:hover{
+    transform: scale(1.07);
+    background-color: rgb(100, 255, 100);
+}
+.stsection{
+    padding: 4rem;
+    width: 60%;
+    height: 35rem;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    width: 400px;
+}
+.searchbar{
+    width: 300px;
+    height: 50px;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    background: white;
+    border: 1px solid;
+    color: white;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+}
+::placeholder{
+    font-size: large;
+    text-align: center;
+    text-decoration-color: rgb(22, 212, 38);
+}
+.search{
+    width: 75px;
+    background: none;
+    border: 1px solid;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+.search:hover{
+    transform: scale(1.07);
+    background-color: rgb(100, 255, 100);
+}
+h2{
+    color: white;
+    font-weight: bold;
+}
+.btn2{
+    background: none;
+    border: 1px solid;
+    color: white;
+    font-weight: bold;
+    border-radius: 1rem;
+    font-size: medium;
+    padding: 8px;
+    cursor: pointer;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.desc{
+    padding-bottom: 2rem;
+}
+.bodybtn{
+    padding-left: 0.4rem;
+}
+.bimage{
+    width: 16rem;
+    height: 32rem;
+}
+.btn2:hover{
+    background-color: rgb(22, 212, 38);
+}
+.searchbar{
+    border: 1px solid;
+}
+.h1{
+    color: black;
+    font-weight: bold;
+    padding-top: 3rem;
+}
+.ndsection{
+    width: 40%;
+    display: flex;
+    align-items: end;
+}
+.imagediv{
+    background-image: url(background.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.pictures{
+    width: 230px;
+    height: 350px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.pictures:hover{
+    transform: scale(1.04);
+}
+.jsucontent{
+    display: flex;
+    justify-content: center;
+}
+.leftcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: aquamarine;
+}
+.thedescription{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.superbold{
+    color: black;
+    font-weight: bolder;
+    font-style: italic;
+}
+.bold{
+    color: black;
+}
+.ligh{
+    color: rgba(0, 0, 0, 0.568);
+}
+.piccon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: aquamarine;
+}
+.videopic{
+    width: 600px;
+    height: 400px;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.videopic:hover{
+    transform: scale(1.02);
+}
+.fourthcon{
+    display: flex;
+    flex-direction: row;
+}
+.njeshi{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 11rem;
+}
+.rrrr{
+    color: black;
+    font-weight: bold;
+}
+.rows{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 12rem;
+}
+.cursor{
+    cursor: pointer;
+}
+.smallcons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn3{
+    font-size: large;
+    font-weight: lighter;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.smallcons:hover{
+    transform: scale(1.06);
+}
+.sixthsec{
+    display: flex;
+    flex-direction: row;
+    height: 37rem;
+}
+.sektori1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    background-color: rgb(66, 2, 176);
+}
+.sektori2{
+    width: 65%;
+    background-color: rgb(66, 2, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+}
+.size{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+.light{
+    font-weight: lighter;
+}
+.lighter{
+    color: rgba(255, 255, 255, 0.745);
+    font-weight: lighter;
+}
+.hdyshi{
+    font-weight: bolder;
+    padding-right: 5px;
+}
+.h-ja{
+    font-weight: lighter;
+}
+.height{
+    height: 8rem;
+    width: 20rem;
+}
+.explore{
+    border: none;
+    background-color: rgb(22, 212, 38);
+    border-radius: 0.4rem;
+    font-size: large;
+    padding: 0.7rem;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.explore:hover{
+    transform: scale(1.03);
+    background-color: rgb(100, 255, 100);
+}
+.seventhsec{
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+}
+.sektoripar{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kutri1{
+    display: flex;
+    align-items: center;
+}
+.sektoridyt{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kutri{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dyri{
+    color: rgba(0, 0, 0, 0.526);
+    font-weight: bold;
+}
+.treri{
+    color: rgb(5, 56, 5);
+    font-style: italic;
+    width: 100%;
+}
+.widthi{
+    width: 100%;
+}
+.img2{
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.img2:hover{
+    transform: scale(1.03);
+}
+.eightthsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.bigsec{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(32, 107, 210);
+    padding: 0px;
+}
+.ipari{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.idyti{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bashk{
+    display: flex;
+    flex-direction: row;
+}
+.etrasha{
+    font-weight: bold;
+    padding-right: 5px;
+}
+.eholla{
+    font-weight: lighter;
+}
+.etrasha2{
+    font-weight: bold;
+    margin: 0%;
+}
+.eholla2{
+    font-weight: bold;
+    font-style: italic;
+    margin: 0%;
+}
+.ddd{
+    font-weight: lighter;
+}
+.tryit{
+    color: rgb(32, 107, 210);
+    padding: 10px;
+    font-size: large;
+    background-color: white;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.tryit:hover{
+    background-color: rgb(189, 211, 241);
+    transform: scale(1.03);
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main{
+    font-weight: bolder;
+    color: black;
+    width: 60rem;
+}
+.containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.ilu{
+    cursor: pointer;
+}
+.ilu:hover{
+    transform: scale(1.03);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.834);
+}
+.invis{
+    background: none;
+    border: none;
+    color: rgb(22, 212, 38);
+    font-size: large;
+    cursor: pointer;
+}
+.invis:hover{
+    transform: scale(1.04);
+}
+.ninethsec{
+    background-color: rgb(228, 228, 228);
+}
+.container1{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.834);
+}
+.main2{
+    color: black;
+    font-weight: bold;
+}
+.sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+.h2shi{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0;
+    width: 24rem;
+    cursor: pointer;
+}
+.h3shi{
+    color: rgba(0, 0, 0, 0.901);
+    font-weight: lighter;
+    margin: 3px;
+    width: 24rem;
+    cursor: pointer;
+}
+.smallerdiv{
+    padding: 1rem;
+}
+.last{
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+.last:hover{
+    transform: scale(1.02);
+}
+.eleventhsec{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(111, 0, 41);
+    margin: 2rem;
+    border-radius: 0.3rem;
+}
+.con1{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.con2{
+    width: 35%;
+    display: flex;
+    justify-content: baseline;
+}
+.lasth{
+    font-style: italic;
+    font-size: 300%;
+    width: 40rem;
+    padding-bottom: 1.5rem;
+}
+.foot{
+    display: flex;
+    background-color: rgb(203, 203, 203);
+    height: 27rem;
+    justify-content: space-around;
+}
+.footbtn{
+    background: none;
+    border: none;
+    color: rgba(0, 0, 0, 0.634);
+    font-size: larger;
+    padding: 0.3rem;
+    cursor: pointer;
+    position: relative;
+}
+.footrow{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footh{
+    color: black;
+}
+.footbtn::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.434);
+    transition: width 0.2s ease-out;
+}
+.footbtn:hover::after{
+    width: 100%;
+}
